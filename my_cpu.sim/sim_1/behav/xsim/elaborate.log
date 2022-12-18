@@ -1,0 +1,34 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto d6dd3ccb72454b1586c2befc2fcd85fc --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot First_TestBanch_behav xil_defaultlib.First_TestBanch xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.My_register [my_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.My_flag_register [my_flag_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.My_alu [my_alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.My_cpu [my_cpu_default]
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling architecture behavioral of entity xil_defaultlib.Mem_inst [mem_inst_default]
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="kin...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling architecture behavioral of entity xil_defaultlib.Mem_data [mem_data_default]
+Compiling architecture behavioral of entity xil_defaultlib.My_computer [my_computer_default]
+Compiling architecture behavioral of entity xil_defaultlib.first_testbanch
+Built simulation snapshot First_TestBanch_behav

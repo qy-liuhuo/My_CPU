@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../my_cpu.srcs/sources_1/new/Mem_data.vhd" \
+"../../../../my_cpu.srcs/sources_1/new/Mem_inst.vhd" \
+"../../../../my_cpu.srcs/sources_1/new/My_alu.vhd" \
+"../../../../my_cpu.srcs/sources_1/new/My_cpu.vhd" \
+"../../../../my_cpu.srcs/sources_1/new/My_flag_register.vhd" \
+"../../../../my_cpu.srcs/sources_1/new/My_register.vhd" \
+"../../../../my_cpu.srcs/sources_1/new/My_computer.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project/my_cpu/my_cpu/my_cpu.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project/my_cpu/my_cpu/my_cpu.srcs/sources_1/ip/dist_mem_gen_0_1/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/project/my_cpu/my_cpu/my_cpu.srcs/sources_1/new/My_cpu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'My_cpu'

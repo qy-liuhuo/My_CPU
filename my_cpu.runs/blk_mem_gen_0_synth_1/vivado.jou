@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Dec 17 22:00:58 2022
+# Process ID: 27936
+# Current directory: D:/project/my_cpu/my_cpu/my_cpu.runs/blk_mem_gen_0_synth_1
+# Command line: vivado.exe -log blk_mem_gen_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blk_mem_gen_0.tcl
+# Log file: D:/project/my_cpu/my_cpu/my_cpu.runs/blk_mem_gen_0_synth_1/blk_mem_gen_0.vds
+# Journal file: D:/project/my_cpu/my_cpu/my_cpu.runs/blk_mem_gen_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source blk_mem_gen_0.tcl -notrace

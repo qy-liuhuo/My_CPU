@@ -1,0 +1,51 @@
+memory_initialization_radix = 16;
+memory_initialization_vector =
+0121    ;   LI      r1, #12h
+0082    ;   LI      r2, #08h
+1921    ;   SLL     r1, r2  左移八位
+0343    ;   LI      r3, #34h
+1631    ;   OR      r1, r3
+1414    ;   MOV     r4, r1
+0561    ;   LI      r1, #56h
+1921    ;   SLL     r1, r2 
+0783    ;   LI      r3, #78h
+1631    ;   OR      r1, r3
+1415    ;   MOV     r5, r1
+1154    ;   SUB     r4, r5              ;sub
+0121    ;   LI      r1, #12h
+1921    ;   SLL     r1, r2 
+0343    ;   LI      r3, #34h
+1631    ;   OR      r1, r3
+1414    ;   MOV     r4, r1
+0561    ;   LI      r1, #56h
+1921    ;   SLL     r1, r2 
+0783    ;   LI      r3, #78h
+1631    ;   OR      r1, r3
+1415    ;   MOV     r5, r1
+1145    ;   SUB     r5, r4             ;sub
+07f1    ;   LI      r1, #7fh
+1921    ;   SLL     r1, r2 
+0ff3    ;   LI      r3, #ffh
+1631    ;   OR      r1, r3
+1414    ;   MOV     r4, r1
+0001    ;   LI      r1, #00h
+1921    ;   SLL     r1, r2 
+0023    ;   LI      r3, #02h
+1631    ;   OR      r1, r3
+1415    ;   MOV     r5, r1
+1054    ;   ADD     r4, r5             ;add
+c028    ;   JL      0028h              
+0ff3    ;   LI      r3, #ffh           ;跳到这里 pc:0023
+0000    ;   LI      r0, #00h
+0000    ;   LI      r0, #00h
+0000    ;   LI      r0, #00h
+0000    ;   LI      r0, #00h
+0046    ;   LI      r6, #04h
+1f06    ;   WRF     r6
+0a07    ;   LI      r7, #a0h
+1c07    ;   SCC     r7
+0018    ;   LI      r8, #01h
+108f    ;   ADD     r15, r8            ;add
+1d35    ;   TST     r3,r5  ;002e
+21f4    ;   BX      #f4                 ;pc：002f -13
+5013    ;   SM      r3,r1               ;存储指令
