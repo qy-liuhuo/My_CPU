@@ -124,7 +124,7 @@
 
 `JR`
 
-![](https://img.qylh.xyz/blog/1671350320848.png)
+![](https://img.qylh.xyz/blog/1671434390903.png)
 
 
 ## 设计框架
